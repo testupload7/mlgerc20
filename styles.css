@@ -1,0 +1,253 @@
+/* ...existing styles... */
+
+@font-face {
+  font-family: 'Super Mario 256';
+  src: url("C:\Users\Christian\Downloads\super_mario_256 (1)\SuperMario256.ttf") format('truetype');
+}
+
+.header-images {
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: black;
+}
+
+.header-images img {
+  max-width: 100%;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  background-color: #fff;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+  background-color: #fff;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px 10px;
+  border: 1px solid #232b2b;
+  border-radius: 5px;
+}
+
+nav ul li a:hover {
+  background-color: #232b2b;
+  color: #232b2b;
+}
+
+#hero {
+  background-color: #232b2b;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.hero-content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.hero-content h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.cta-button:hover {
+  background-color: #232b2b;
+}
+
+#about,
+#features,
+#contact,
+#key-information {
+  text-align: center;
+  padding: 50px 0;
+  background-color: white;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.container p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.container ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.container ul li {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+#key-information {
+  background-color: white;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  animation: glow 2s infinite alternate;
+}
+
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+  100% {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6), 0 0 40px rgba(0, 0, 0, 0.4);
+  }
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+  font-family:'Super Mario 256', sans-serif;
+  background-image: url('site background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  cursor: crosshair;
+  caret-color: red;
+}
+
+
+nav ul li a {
+  color: #fff;
+}
+
+nav ul li:nth-child(1) a,
+nav ul li:nth-child(2) a {
+  border-radius: 20px;
+  color: #fff;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li:not(:last-child) a {
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 10px;
+  border: 1px solid #fff;
+  border-radius: 20px;
+}
+
+nav ul li a:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+h3 {
+  font-size: 50px;
+  text-align: center;
+}
+
+.small-image {
+  size: 40px;
+}
+
+.side-by-side-images {
+  display: flex;
+  justify-content: space-between;
+}
+
+.small-image {
+  width: 200px; /* Adjust the width as per your requirements */
+  height: 200px;
+}
+
+.left-image {
+  size: 40px;
+}
+
+ul,
+li {
+  text-align: center;
+  font-family: 'supermario', sans-serif;
+}
+
+p {
+  text-align: center;
+  font-family: 'supermario', sans-serif;
+  font-size: 24px;
+}
+
+/* Rest of your CSS styles... */
+
+.side-by-side-images {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 20px;
+}
+
+.side-by-side-images img {
+  height: 400px;
+  padding: 100px; /* Add padding to the images */
+}
+
+
+.custom-cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  pointer-events: none;
+  width: 20px;
+}
+
+.container h3, .container p {
+  animation: glow 2s infinite;
+}
+
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  50% {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  }
+  100% {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+}
